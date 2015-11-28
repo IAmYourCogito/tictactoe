@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>tic tac toe game</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<script type="text/javascript" src="angular.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+	<div ng-app="homepage">
+		<div>
+			<div ng-controller="counterController as cc" class="classof13">
+				<img id="leftTop" style="display: inline" ng-src="{{cc.whiteCrossCircle0}}" ng-click="cc.poopshoot(0)"> </img>
+				<img id="midTop" style="display: inline" ng-src="{{cc.whiteCrossCircle1}}" ng-click="cc.poopshoot(1)"> </img>
+				<img id="rightTop" style="display: inline" ng-src="{{cc.whiteCrossCircle2}}" ng-click="cc.poopshoot(2)"> </img>
+				<img id="leftMid" style="display: inline" ng-src="{{cc.whiteCrossCircle3}}" ng-click="cc.poopshoot(3)"> </img>
+				<img id="midMid" style="display: inline" ng-src="{{cc.whiteCrossCircle4}}" ng-click="cc.poopshoot(4)"> </img>
+				<img id="rightMid" style="display: inline" ng-src="{{cc.whiteCrossCircle5}}" ng-click="cc.poopshoot(5)"> </img>
+				<img id="leftBot" style="display: inline" ng-src="{{cc.whiteCrossCircle6}}" ng-click="cc.poopshoot(6)"> </img>
+				<img id="midBot" style="display: inline" ng-src="{{cc.whiteCrossCircle7}}" ng-click="cc.poopshoot(7)"> </img>
+				<img id="rightBot" style="display: inline" ng-src="{{cc.whiteCrossCircle8}}" ng-click="cc.poopshoot(8)"> </img>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

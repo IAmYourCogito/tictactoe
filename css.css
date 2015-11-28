@@ -1,0 +1,40 @@
+#leftTop {
+	height: 30%;
+	width: 30%;
+}
+#midTop {
+	height: 30%;
+	width: 30%;
+}
+#rightTop {
+	height: 30%;
+	width: 30%;
+}
+#leftMid {
+	height: 30%;
+	width: 30%;
+}
+#midMid {
+	height: 30%;
+	width: 30%;
+}
+#rightMid {
+	height: 30%;
+	width: 30%;
+}
+#leftBot {
+	height: 30%;
+	width: 30%;
+}
+#midBot {
+	height: 30%;
+	width: 30%;
+}
+#rightBot {
+	height: 30%;
+	width: 30%;
+}
+
+.classof13 {
+		display: inline;
+}
